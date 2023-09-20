@@ -1,0 +1,29 @@
+/* class style for spoken text */
+.speech {
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    color: black;
+}
+/* class style for directions */
+.direction {
+    font-family: Times New Roman, serif;
+    font-size: 14px;
+    color: black;
+    background-color: lightgray;
+}
+.direction:hover {
+    background-color: yellow;
+    color: black;
+}
+/* styles for each character name */
+.character-name {
+  .Morten Kiil{
+    color:blue;
+  }
+  .Horster{
+    color:green;
+  }
+  .Dr.Stockmann{
+    color:red;
+  }
+}
