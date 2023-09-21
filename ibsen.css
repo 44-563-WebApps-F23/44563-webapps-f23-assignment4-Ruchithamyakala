@@ -1,29 +1,94 @@
 /* class style for spoken text */
-.speech {
-    font-family: Arial,sans-serif;
-    font-size: 16px;
+.speech{
+    font-display: black;
     color: black;
+    text-decoration: solid;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
 }
-/* class style for directions */
-.direction {
-    font-family: Times New Roman, serif;
-    font-size: 14px;
-    color: black;
-    background-color: lightgray;
+.direction{
+    font-style: italic;
+    background-color: lightblue;
+    color:black;
+    font-size: 15px;
 }
-.direction:hover {
-    background-color: yellow;
-    color: black;
+.name{
+    font-size: 15px;
+}
+.name:hover{
+    text-shadow: 5px 5px 3px black;
+    border:2px dotted rgb(128, 0, 4);
+}
+
+.direction:hover{
+    background-color: lightgreen;
+    color: beige;
 }
 /* styles for each character name */
-.character-name {
-  .Morten Kiil{
-    color:blue;
-  }
-  .Horster{
-    color:green;
-  }
-  .Dr.Stockmann{
-    color:red;
-  }
+.Morten_Kiil{
+    color: blue;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.Horster{
+    color:aquamarine;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Dr_Stockmann{
+    color:rgb(127, 146, 255);
+    font-size: 16px;
+    text-shadow: 2px 2px 7px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Horster:hover{
+    background-color: crimson;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-shadow: 2px 2px 7px black;
+   
+}
+.Morten_Kiil:hover{
+    background-color: blueviolet;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-shadow: 2px 2px 7px black;
+    
+}
+
+
+
+
+.Dr.Stockmann:hover{
+    
+    border:2px dotted green;
+    text-shadow: 2px 2px 7px black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.table
+{
+    text-align: center;
+    padding: 70px;
+    margin:30px;
+    background-color: rgb(128, 137, 240);
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color:rgb(177, 68, 60);
+}
+
+table, th, td,tr {
+    border: 3px solid;
+    text-align: center;
+    /* background-color: lightcoral; */
+    padding: 20px;
+  }
+tr:nth-child(odd){
+    background-color: rgb(95, 160, 111);
+}
+
+
